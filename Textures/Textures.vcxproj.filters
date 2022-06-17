@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Ex1">
+      <UniqueIdentifier>{4a456a1c-3319-41e8-8de7-cc34125220ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ex2">
+      <UniqueIdentifier>{50eded39-16a2-4a9c-9a72-8984ebbbf4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ex3">
+      <UniqueIdentifier>{23121cd7-692d-4f3b-b325-d310cd05fd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ex4">
+      <UniqueIdentifier>{97061705-4e04-4dd1-be07-fd955c56b0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ex5">
+      <UniqueIdentifier>{ebc54e97-583a-4944-af8a-839f06f35a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ex6">
+      <UniqueIdentifier>{96aab844-72b4-4b71-bf19-e63eb0de1f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ex7">
+      <UniqueIdentifier>{bb05d24a-a6ac-4178-b55f-583ce2e7c73a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Tools\glad (1)\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files\Ex1</Filter>
+    </ClCompile>
+    <ClCompile Include="texture2.cpp">
+      <Filter>Source Files\Ex2</Filter>
+    </ClCompile>
+    <ClCompile Include="texture3.cpp">
+      <Filter>Source Files\Ex3</Filter>
+    </ClCompile>
+    <ClCompile Include="texture4.cpp">
+      <Filter>Source Files\Ex4</Filter>
+    </ClCompile>
+    <ClCompile Include="texture5.cpp">
+      <Filter>Source Files\Ex5</Filter>
+    </ClCompile>
+    <ClCompile Include="texture6.cpp">
+      <Filter>Source Files\Ex6</Filter>
+    </ClCompile>
+    <ClCompile Include="texture7.cpp">
+      <Filter>Source Files\Ex7</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="texture.fs">
+      <Filter>Source Files\Ex1</Filter>
+    </None>
+    <None Include="texture.vs">
+      <Filter>Source Files\Ex1</Filter>
+    </None>
+    <None Include="texture2.vs">
+      <Filter>Source Files\Ex2</Filter>
+    </None>
+    <None Include="texture2.fs">
+      <Filter>Source Files\Ex2</Filter>
+    </None>
+    <None Include="texture3.vs">
+      <Filter>Source Files\Ex3</Filter>
+    </None>
+    <None Include="texture3.fs">
+      <Filter>Source Files\Ex3</Filter>
+    </None>
+    <None Include="texture4.vs">
+      <Filter>Source Files\Ex4</Filter>
+    </None>
+    <None Include="texture4.fs">
+      <Filter>Source Files\Ex4</Filter>
+    </None>
+    <None Include="texture5.vs">
+      <Filter>Source Files\Ex5</Filter>
+    </None>
+    <None Include="texture5.fs">
+      <Filter>Source Files\Ex5</Filter>
+    </None>
+    <None Include="texture6.fs">
+      <Filter>Source Files\Ex6</Filter>
+    </None>
+    <None Include="texture6.vs">
+      <Filter>Source Files\Ex6</Filter>
+    </None>
+    <None Include="texture7.fs">
+      <Filter>Source Files\Ex7</Filter>
+    </None>
+    <None Include="texture7.vs">
+      <Filter>Source Files\Ex7</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="root_directory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="container.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Pictures\awesomeface.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="wall.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="psse2.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="psse_logo.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

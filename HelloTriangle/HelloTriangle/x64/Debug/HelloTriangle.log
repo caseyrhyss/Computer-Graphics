@@ -1,0 +1,3 @@
+﻿  Ex4-Logo.cpp
+D:\Users\User\Documents\CG-Activities\HelloTriangle\HelloTriangle\Ex4-Logo.cpp(128,5): warning C4305: 'initializing': truncation from 'double' to 'float'
+  HelloTriangle.vcxproj -> D:\Users\User\Documents\CG-Activities\HelloTriangle\x64\Debug\HelloTriangle.exe

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Ex1">
+      <UniqueIdentifier>{077b36a6-f232-4fc0-9ab1-2def6d509fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ex2">
+      <UniqueIdentifier>{67e61482-82d2-4c1b-8d9a-43b4f1003ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ex3">
+      <UniqueIdentifier>{d672324b-b62d-465c-8b07-a3f054a0afcd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ex1.cpp">
+      <Filter>Source Files\Ex1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Tools\glad (1)\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex2.cpp">
+      <Filter>Source Files\Ex2</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex3.cpp">
+      <Filter>Source Files\Ex3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="transform2.fs">
+      <Filter>Source Files\Ex2</Filter>
+    </None>
+    <None Include="transform2.vs">
+      <Filter>Source Files\Ex2</Filter>
+    </None>
+    <None Include="transform1.vs">
+      <Filter>Source Files\Ex1</Filter>
+    </None>
+    <None Include="transform1.fs">
+      <Filter>Source Files\Ex1</Filter>
+    </None>
+    <None Include="Ex3.vs">
+      <Filter>Source Files\Ex3</Filter>
+    </None>
+    <None Include="Ex3.fs">
+      <Filter>Source Files\Ex3</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="awesomeface.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="container.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="wall.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

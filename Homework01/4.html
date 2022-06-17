@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="canvas" width="900" height="900"></canvas>
+
+    <script type="text/javascript">
+        let canvas = document.getElementById("canvas")
+        let ctx = canvas.getContext('2d');
+
+        function drawTriangle(x, y) {
+            ctx.clearRect(0, 0, 900, 900)
+
+            y+=1
+
+            ctx.fillStyle="green"
+            ctx.beginPath()
+            ctx.arc(x, y, 30, 0, Math.PI * 2, true)
+            ctx.closePath()
+            ctx.fill()
+
+            setInterval(drawTriangle, 1000)
+        }
+
+        for(i = 0; i < 100; i++) {
+            drawTriangle(Math.random() * 700, Math.random() * 100)
+        }
+    </script>
+</body>
+</html>
