@@ -180,7 +180,6 @@
   <ItemGroup>
     <Image Include="..\..\..\Pictures\awesomeface.png" />
     <Image Include="container.jpg" />
-    <Image Include="psse2.jpg" />
     <Image Include="psse_logo.jpg" />
     <Image Include="wall.jpg" />
   </ItemGroup>

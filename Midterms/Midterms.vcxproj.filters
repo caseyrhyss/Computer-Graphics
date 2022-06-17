@@ -53,10 +53,10 @@
     <None Include="transform1.fs">
       <Filter>Source Files\Ex1</Filter>
     </None>
-    <None Include="Ex3.vs">
+    <None Include="transform3.vs">
       <Filter>Source Files\Ex3</Filter>
     </None>
-    <None Include="Ex3.fs">
+    <None Include="transform3.fs">
       <Filter>Source Files\Ex3</Filter>
     </None>
   </ItemGroup>
@@ -76,6 +76,9 @@
       <Filter>Source Files</Filter>
     </Image>
     <Image Include="wall.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="psse_logo.jpg">
       <Filter>Source Files</Filter>
     </Image>
   </ItemGroup>

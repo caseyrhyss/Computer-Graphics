@@ -132,9 +132,6 @@
     <Image Include="wall.jpg">
       <Filter>Source Files</Filter>
     </Image>
-    <Image Include="psse2.jpg">
-      <Filter>Source Files</Filter>
-    </Image>
     <Image Include="psse_logo.jpg">
       <Filter>Source Files</Filter>
     </Image>
